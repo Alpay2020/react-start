@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header>
         <h1>
-        Hello world!
+        Alpay's favorite beers:
         </h1>
         </header>
 );
