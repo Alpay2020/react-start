@@ -1,10 +1,10 @@
 import React from 'react';
 
-export default function Header() {
+export default function Header(props) {
     return (
         <header>
         <h1>
-        Alpay's favorite beers:
+            {props.title}
         </h1>
         </header>
 );
